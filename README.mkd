@@ -1,0 +1,15 @@
+# NClip
+A simple plugin to use with NeoVim for editing clipboard content, currently supports macOS only.
+
+# Dependency
+You need `pyobjc` to use this plugin, make sure your nvim can find it
+
+# Commands
+## `NClip`
+Open NClip as a floating window
+
+## `NClipSession`
+Open NClip in the current buffer, you may want to use this only when starting a new nvim session e.g. `nvim -c "NClipSession"`
+
+## `NClipWrite`
+Aux command for saving the content of the current buffer into clipboard
